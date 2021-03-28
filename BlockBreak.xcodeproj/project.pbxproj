@@ -14,6 +14,9 @@
 		FC7A3DB92610BC110095CEDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7A3DB82610BC110095CEDF /* Assets.xcassets */; };
 		FC7A3DC42610BC120095CEDF /* BlockBreakTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7A3DC32610BC120095CEDF /* BlockBreakTests.swift */; };
 		FC7A3DCF2610BC120095CEDF /* BlockBreakUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7A3DCE2610BC120095CEDF /* BlockBreakUITests.swift */; };
+		FC7A3DE32610C5430095CEDF /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7A3DE22610C5430095CEDF /* Functions.swift */; };
+		FC7A3DE82610C6500095CEDF /* Variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7A3DE72610C6500095CEDF /* Variables.swift */; };
+		FC7A3DEE2610C7520095CEDF /* Stages.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7A3DED2610C7520095CEDF /* Stages.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		FC7A3DCA2610BC120095CEDF /* BlockBreakUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlockBreakUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7A3DCE2610BC120095CEDF /* BlockBreakUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockBreakUITests.swift; sourceTree = "<group>"; };
 		FC7A3DD02610BC120095CEDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC7A3DE22610C5430095CEDF /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		FC7A3DE72610C6500095CEDF /* Variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variables.swift; sourceTree = "<group>"; };
+		FC7A3DED2610C7520095CEDF /* Stages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stages.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +103,15 @@
 		FC7A3DAA2610BC0F0095CEDF /* BlockBreak */ = {
 			isa = PBXGroup;
 			children = (
+				FC7A3DEC2610C73D0095CEDF /* Stages */,
 				FC7A3DAB2610BC0F0095CEDF /* AppDelegate.swift */,
 				FC7A3DB12610BC0F0095CEDF /* GameScene.swift */,
 				FC7A3DB32610BC0F0095CEDF /* GameViewController.swift */,
 				FC7A3DB52610BC0F0095CEDF /* Main.storyboard */,
 				FC7A3DB82610BC110095CEDF /* Assets.xcassets */,
 				FC7A3DBA2610BC110095CEDF /* Info.plist */,
+				FC7A3DE22610C5430095CEDF /* Functions.swift */,
+				FC7A3DE72610C6500095CEDF /* Variables.swift */,
 			);
 			path = BlockBreak;
 			sourceTree = "<group>";
@@ -123,6 +132,14 @@
 				FC7A3DD02610BC120095CEDF /* Info.plist */,
 			);
 			path = BlockBreakUITests;
+			sourceTree = "<group>";
+		};
+		FC7A3DEC2610C73D0095CEDF /* Stages */ = {
+			isa = PBXGroup;
+			children = (
+				FC7A3DED2610C7520095CEDF /* Stages.swift */,
+			);
+			path = Stages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,6 +274,9 @@
 				FC7A3DB22610BC0F0095CEDF /* GameScene.swift in Sources */,
 				FC7A3DB42610BC0F0095CEDF /* GameViewController.swift in Sources */,
 				FC7A3DAC2610BC0F0095CEDF /* AppDelegate.swift in Sources */,
+				FC7A3DE32610C5430095CEDF /* Functions.swift in Sources */,
+				FC7A3DEE2610C7520095CEDF /* Stages.swift in Sources */,
+				FC7A3DE82610C6500095CEDF /* Variables.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
