@@ -19,4 +19,7 @@ struct Variables {
     static let bottommCategory : UInt32 = 0x1 << 2  // 000xx100
     static let blockCategory : UInt32 = 0x1 << 3    // 000x1000
     
+    static var blockNum = 0
+    // game이 시작 되었는지 확인하는 변수
+    static var isPlayed = false
 }
